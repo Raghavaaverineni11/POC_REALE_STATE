@@ -1,0 +1,39 @@
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  z-index: 20;
+
+  &.visible {
+    transform: translateY(0);
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  nav a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .btn {
+    background: #41738d;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+}
