@@ -1,14 +1,24 @@
-<div class="sticky-header" [class.visible]="visible">
-  <div class="container">
+<header class="sticky-header" [class.visible]="visible">
+  <div class="sticky-container">
+    <!-- Logo -->
     <img src="assets/logo/logo-sticky.svg" class="logo" />
 
-    <nav>
+    <!-- Navigation -->
+    <nav class="nav">
       <a routerLink="/">Home</a>
       <a routerLink="/amenities">Amenities</a>
       <a routerLink="/floor-plans">Floor Plans</a>
+      <a routerLink="/technology">Technology Package</a>
+      <a routerLink="/neighborhood">Neighborhood</a>
       <a routerLink="/gallery">Gallery</a>
+      <a routerLink="/residents">Residents</a>
+      <a routerLink="/contact">Contact</a>
+      <a routerLink="/virtual-tours">Virtual Tours</a>
     </nav>
 
-    <a routerLink="/floor-plans" class="btn">Find Your Home</a>
+    <!-- CTA -->
+    <a routerLink="/floor-plans" class="btn-primary">
+      Find Your Home
+    </a>
   </div>
-</div>
+</header>

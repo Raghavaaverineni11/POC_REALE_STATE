@@ -191,6 +191,19 @@
   margin: 30px 0;
 }
 
+.footerimg {
+  width: 100%;
+  margin-top: 80px;   // 🔥 IMPORTANT
+}
+
+.footerimg img {
+  width: 100%;
+  display: block;
+}
+
+
+
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
   .home-about-cta {

@@ -1,0 +1,163 @@
+/* ===== NOW LEASING SECTION ===== */
+.now-leasing {
+  text-align: center;
+  padding: 80px 20px 100px;
+  background: #fff;
+}
+
+.now-leasing h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #2b2b2b;
+}
+
+.leasing-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-primary {
+  background: #4f7f94;
+  color: #fff;
+  padding: 12px 26px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #4f7f94;
+  color: #4f7f94;
+  padding: 12px 26px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.site-footer {
+  background: #fff;
+  text-align: center;
+  padding: 80px 20px 60px;
+  color: #4a4a4a;
+  font-size: 14px;
+}
+
+/* ===== TOP SECTION ===== */
+.footer-top {
+  max-width: 900px;
+  margin: 0 auto 60px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-icons .icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #4f7f94;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.social-icons svg {
+  width: 18px;
+  height: 18px;
+  fill: #fff;
+}
+
+.social-icons .icon:hover {
+  background: #3a6678;
+}
+
+.footer-info h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.footer-info p {
+  margin: 6px 0;
+}
+
+.footer-info .phone {
+  margin-top: 10px;
+}
+
+.pet-policy {
+  margin-top: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #4f7f94;
+  font-weight: 500;
+}
+
+hr {
+  max-width: 1100px;
+  margin: 60px auto 40px;
+  border: none;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* ===== NAV LINKS ===== */
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+  margin-bottom: 26px;
+
+  a {
+    color: #4f7f94;
+    text-decoration: none;
+    font-size: 14px;
+  }
+}
+
+.footer-copy {
+  font-size: 13px;
+  color: #6a6a6a;
+  margin-bottom: 50px;
+
+  a {
+    color: #6a6a6a;
+    text-decoration: none;
+  }
+}
+
+/* ===== BRANDING ROW ===== */
+.footer-branding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  color: #9a9a9a;
+  font-size: 14px;
+}
+
+.rpm {
+  font-size: 36px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.compliance-icons {
+  display: flex;
+  gap: 14px;
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.powered {
+  font-size: 14px;
+  opacity: 0.7;
+}
