@@ -18,17 +18,31 @@ export const routes: Routes = [
           import('./features/amenities/amenities.component')
             .then(m => m.AmenitiesComponent)
       },
+
       {
-        path: 'floor-plans',
+        path: 'Development-Projects',
         loadComponent: () =>
-          import('./features/floor-plans/floor-plans.component')
-            .then(m => m.FloorPlansComponent)
+          import('./features/Development-Projects/developmentprojects.component')
+            .then(m => m.DevelopmentProjectsComponent)
       },
+      // {
+      //   path: 'floor-plans',
+      //   loadComponent: () =>
+      //     import('./features/floor-plans/floor-plans.component')
+      //       .then(m => m.FloorPlansComponent)
+      // },
       {
         path: 'gallery',
         loadComponent: () =>
           import('./features/gallery/gallery.component')
             .then(m => m.GalleryComponent)
+      },
+
+        {
+        path: 'realestate',
+        loadComponent: () =>
+          import('./features/Real-Estate-Land-Sale/realestate.component')
+            .then(m => m.RealestateComponent)
       },
       {
         path: 'virtual-tours',

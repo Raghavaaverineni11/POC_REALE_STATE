@@ -1,0 +1,138 @@
+.hero {
+  position: relative;
+  height: 460px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+  }
+
+  &-content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 10px 0 25px;
+      font-size: 16px;
+    }
+  }
+}
+
+.search-box {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  width: 80%;
+  max-width: 700px;
+  color: #000;
+
+  .tabs {
+    display: flex;
+    margin-bottom: 12px;
+
+    button {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      background: #f0f0f0;
+      cursor: pointer;
+      font-weight: 600;
+
+      &.active {
+        background: #41738d;
+        color: #fff;
+      }
+    }
+  }
+
+  .search-row {
+    display: flex;
+    gap: 10px;
+
+    input {
+      flex: 1;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    .search-btn {
+      background: #41738d;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  }
+}
+
+.categories {
+  padding: 60px 20px;
+  text-align: center;
+
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+
+    span {
+      color: #41738d;
+    }
+  }
+
+  p {
+    color: #777;
+    margin-bottom: 30px;
+  }
+
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .category-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 25px 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    img {
+      height: 42px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+}
